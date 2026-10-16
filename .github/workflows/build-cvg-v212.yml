@@ -17,7 +17,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-       - name: SDK platform/build tools
+      - name: SDK platform/build tools
         run: |
           SDKMGR=$(command -v sdkmanager || find "$ANDROID_HOME/cmdline-tools" -name sdkmanager -type f | sort -V | tail -n 1)
           printf 'Using %s\\n' "$SDKMGR"
