@@ -29,6 +29,21 @@ jobs:
           fi
       - name: Extrair CVG Pal Control
         run: unzip -q cvg-pal-control-source.zip
+      - name: Aplicar contrato oficial de arquivos GameGrid
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('CVG_Pal_Control_Android_Source/app/src/main/java/br/com/corvogames/palcontrol/GameGridFiles.java')
+          s=p.read_text(encoding='utf-8')
+          before_read='"/files/read?path="'
+          before_write='request("POST","/servers/"+SERVER+"/files/write",payload)'
+          assert before_read in s, 'read endpoint missing'
+          assert before_write in s, 'write endpoint missing'
+          s=s.replace(before_read,'"/files/content?path="')
+          s=s.replace(before_write,'request("PUT","/servers/"+SERVER+"/files/content",payload)')
+          p.write_text(s,encoding='utf-8')
+          print('Endpoint GameGrid verificado: GET e PUT /servers/{serverId}/files/content')
+          PY
       - name: Compilar APK debug
         working-directory: CVG_Pal_Control_Android_Source
         run: gradle --no-daemon :app:assembleDebug
