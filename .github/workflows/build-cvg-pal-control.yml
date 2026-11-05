@@ -15,13 +15,18 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - uses: android-actions/setup-android@v3
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-      - name: Preparar SDK Android 35
+      - name: Confirmar SDK Android do runner
         run: |
-          sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME/platforms" || true
+          ls "$ANDROID_HOME/build-tools" || true
+          if [ ! -d "$ANDROID_HOME/platforms/android-35" ] || [ ! -d "$ANDROID_HOME/build-tools/35.0.0" ]; then
+            yes | sdkmanager --sdk_root="$ANDROID_HOME" --licenses >/dev/null || true
+            sdkmanager --sdk_root="$ANDROID_HOME" 'platforms;android-35' 'build-tools;35.0.0'
+          fi
       - name: Extrair CVG Pal Control
         run: unzip -q cvg-pal-control-source.zip
       - name: Compilar APK debug
