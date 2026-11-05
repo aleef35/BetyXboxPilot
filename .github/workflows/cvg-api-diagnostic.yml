@@ -8,22 +8,20 @@ jobs:
   api:
     runs-on: ubuntu-latest
     steps:
-      - name: Read public OpenAPI routes for file bridge
+      - name: Read public OpenAPI file schema
         shell: bash
         run: |
           python3 - <<'PY'
           import urllib.request,json
-          u='https://wdcgamegrid.com/api/public/v1/openapi.json'
-          with urllib.request.urlopen(u,timeout=25) as s:
+          with urllib.request.urlopen('https://wdcgamegrid.com/api/public/v1/openapi.json',timeout=25) as s:
             d=json.load(s)
-          for p, ops in d.get('paths',{}).items():
-            if '/files' in p and 'server' in p:
-              print('ROUTE',p)
-              for method, spec in ops.items():
-                if method.upper() not in ('GET','POST','PUT','PATCH','DELETE'):continue
-                print('  ',method.upper(),spec.get('operationId',''))
-                if 'requestBody' in spec:
-                  print('  BODY',json.dumps(spec['requestBody'],ensure_ascii=False)[:700])
-                if 'parameters' in spec:
-                  print('  PARAM',json.dumps(spec['parameters'],ensure_ascii=False)[:700])
+          paths=d.get('paths',{})
+          for p in ['/servers/{serverId}/files/content']:
+            for method,spec in paths[p].items():
+              if method not in ('get','put'):continue
+              print('PATH',p,'METHOD',method)
+              print('RESPONSES',json.dumps(spec.get('responses',{}),ensure_ascii=False)[:6000])
+              print('BODY',json.dumps(spec.get('requestBody',{}),ensure_ascii=False)[:2500])
+          for name in ['FileWriteContentDto','FileReadResponseDto','FileContentDto']:
+            print('SCHEMA',name,json.dumps(d.get('components',{}).get('schemas',{}).get(name),ensure_ascii=False)[:5000])
           PY
