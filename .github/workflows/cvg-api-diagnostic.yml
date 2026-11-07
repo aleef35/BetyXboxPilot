@@ -1,27 +1,19 @@
 name: Diagnose GameGrid file API
 on:
   push:
-    branches:
-      - cvg-pal-control-android-20261105
+    branches: [cvg-pal-control-android-20261105]
   workflow_dispatch:
 jobs:
   api:
     runs-on: ubuntu-latest
     steps:
-      - name: Read public OpenAPI file schema
-        shell: bash
+      - name: Check official account key routes
         run: |
           python3 - <<'PY'
           import urllib.request,json
           with urllib.request.urlopen('https://wdcgamegrid.com/api/public/v1/openapi.json',timeout=25) as s:
             d=json.load(s)
-          paths=d.get('paths',{})
-          for p in ['/servers/{serverId}/files/content']:
-            for method,spec in paths[p].items():
-              if method not in ('get','put'):continue
-              print('PATH',p,'METHOD',method)
-              print('RESPONSES',json.dumps(spec.get('responses',{}),ensure_ascii=False)[:6000])
-              print('BODY',json.dumps(spec.get('requestBody',{}),ensure_ascii=False)[:2500])
-          for name in ['FileWriteContentDto','FileReadResponseDto','FileContentDto']:
-            print('SCHEMA',name,json.dumps(d.get('components',{}).get('schemas',{}).get(name),ensure_ascii=False)[:5000])
+          for p, ops in d.get('paths',{}).items():
+            if 'key' in p.lower() or p.endswith('/servers') or p.startswith('/account'):
+              print('ROUTE',p,'methods',','.join(k.upper() for k in ops if k in ('get','post','put','delete','patch')))
           PY
