@@ -44,13 +44,18 @@ jobs:
           p.write_text(s,encoding='utf-8')
           print('Endpoint GameGrid verificado: GET e PUT /servers/{serverId}/files/content')
           PY
+      - name: Corrigir resolução do servidor GameGrid e versão 1.1
+        run: python3 cvg_pal_control_v11_patch.py
       - name: Compilar APK debug
         working-directory: CVG_Pal_Control_Android_Source
         run: gradle --no-daemon :app:assembleDebug
+      - name: Verificar assinatura e pacote Android
+        run: |
+          $ANDROID_HOME/build-tools/35.0.0/apksigner verify --verbose CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
       - name: Publicar APK
         uses: actions/upload-artifact@v4
         with:
-          name: CVG-Pal-Control-Experimental-APK
+          name: CVG-Pal-Control-v1.1-APK
           path: CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
