@@ -1,0 +1,334 @@
+codename,slug,displayName,tribeKey,elements,combiRank,isBreedable,rarity
+BadCatgirl,nyafia,Nyafia,BadCatgirl,Dark,1250,true,4
+BlueberryFairy,prunelia,Prunelia,BlueberryFairy,Leaf|Dark,1390,true,5
+BrownRabbit,lapiron,Lapiron,BrownRabbit,Earth,1680,true,3
+ElecLion,boltmane,Boltmane,ElecLion,Electricity,9999,false,0
+GoldenHorse,gildane,Gildane,GoldenHorse,Earth,730,true,8
+PinkKangaroo,,,PinkKangaroo,Normal,9999,false,0
+TentacleTurtle,turtacle,Turtacle,TentacleTurtle,Water,2410,true,3
+TentacleTurtle_Ground,turtacle-terra,Turtacle Terra,TentacleTurtle_Ground,Water|Earth,1330,true,4
+BeardedDragon,,,BeardedDragon,Dragon,9999,false,0
+WaterLizard,,,WaterLizard,Fire,9999,false,0
+GrassDragon,,,GrassDragon,Leaf,9999,false,0
+Anubis,anubis,Anubis,Anubis,Earth,480,true,10
+Baphomet,incineram,Incineram,Baphomet,Fire|Dark,1470,true,4
+Baphomet_Dark,incineram-noct,Incineram Noct,Baphomet_Dark,Dark,1310,true,5
+Bastet,mau,Mau,Bastet,Dark,3040,true,1
+Bastet_Ice,mau-cryst,Mau Cryst,Bastet_Ice,Ice,2750,true,2
+Boar,rushoar,Rushoar,Boar,Earth,2880,true,1
+Carbunclo,lifmunk,Lifmunk,Carbunclo,Leaf,3020,true,1
+ColorfulBird,tocotoco,Tocotoco,ColorfulBird,Normal,2730,true,1
+Deer,eikthyrdeer,Eikthyrdeer,Deer,Normal,2710,true,5
+Deer_Ground,eikthyrdeer-terra,Eikthyrdeer Terra,Deer_Ground,Earth,2580,true,6
+DrillGame,digtoise,Digtoise,DrillGame,Earth,1550,true,5
+Eagle,galeclaw,Galeclaw,Eagle,Normal,2570,true,2
+ElecPanda,grizzbolt,Grizzbolt,ElecPanda,Electricity,1020,true,8
+Ganesha,teafant,Teafant,Ganesha,Water,3070,true,1
+Garm,direhowl,Direhowl,Garm,Normal,2680,true,2
+Gorilla,gorirat,Gorirat,Gorilla,Normal,2140,true,5
+Gorilla_Ground,gorirat-terra,Gorirat Terra,Gorilla_Ground,Earth,1880,true,5
+Hedgehog,jolthog,Jolthog,Hedgehog,Electricity,3030,true,1
+Hedgehog_Ice,jolthog-cryst,Jolthog Cryst,Hedgehog_Ice,Ice,2850,true,2
+Kirin,univolt,Univolt,Kirin,Electricity,2270,true,5
+Kirin_Ice,univolt-cryst,Univolt Cryst,Kirin_Ice,Ice,540,true,6
+Kitsunebi,foxparks,Foxparks,Kitsunebi,Fire,2990,true,1
+LittleBriarRose,bristla,Bristla,LittleBriarRose,Leaf,2690,true,1
+Mutant,lunaris,Lunaris,Mutant,Normal,2010,true,6
+Penguin,pengullet,Pengullet,Penguin,Water|Ice,2960,true,1
+Penguin_Electric,pengullet-lux,Pengullet Lux,Penguin_Electric,Water|Electricity,2490,true,2
+RaijinDaughter,dazzi,Dazzi,RaijinDaughter,Electricity,2400,true,2
+SharkKid,gobfin,Gobfin,SharkKid,Water,2550,true,2
+SharkKid_Fire,gobfin-ignis,Gobfin Ignis,SharkKid_Fire,Fire,2430,true,3
+SheepBall,lamball,Lamball,SheepBall,Normal,3050,true,1
+Umihebi,jormuntide,Jormuntide,Umihebi,Dragon|Water,590,true,8
+Umihebi_Fire,jormuntide-ignis,Jormuntide Ignis,Umihebi_Fire,Dragon|Fire,170,true,9
+Werewolf,loupmoon,Loupmoon,Werewolf,Dark,2110,true,3
+WindChimes,hangyu,Hangyu,WindChimes,Earth,2780,true,1
+WindChimes_Ice,hangyu-cryst,Hangyu Cryst,WindChimes_Ice,Ice,2510,true,2
+Suzaku,suzaku,Suzaku,Suzaku,Fire,1200,true,8
+Suzaku_Water,suzaku-aqua,Suzaku Aqua,Suzaku_Water,Water,740,true,9
+FireKirin,pyrin,Pyrin,FireKirin,Fire,1980,true,6
+FireKirin_Dark,pyrin-noct,Pyrin Noct,FireKirin_Dark,Fire|Dark,1870,true,7
+FairyDragon,elphidran,Elphidran,FairyDragon,Dragon,2280,true,7
+FairyDragon_Water,elphidran-aqua,Elphidran Aqua,FairyDragon_Water,Dragon|Water,1640,true,8
+SweetsSheep,woolipop,Woolipop,SweetsSheep,Normal,2820,true,3
+SweetsSheep_Ground,woolipop-terra,Woolipop Terra,SweetsSheep_Ground,Earth,2030,true,4
+WhiteTiger,cryolinx,Cryolinx,WhiteTiger,Ice,1040,true,7
+Alpaca,melpaca,Melpaca,Alpaca,Normal,2720,true,3
+Serpent,surfent,Surfent,Serpent,Water,2440,true,4
+Serpent_Ground,surfent-terra,Surfent Terra,Serpent_Ground,Earth,1840,true,5
+DarkCrow,cawgnito,Cawgnito,DarkCrow,Dark,2370,true,3
+BlueDragon,azurobe,Azurobe,BlueDragon,Water|Dragon,1830,true,7
+BlueDragon_Ice,azurobe-cryst,Azurobe Cryst,BlueDragon_Ice,Ice|Dragon,1220,true,8
+PinkCat,cattiva,Cattiva,PinkCat,Normal,2760,true,1
+NegativeKoala,depresso,Depresso,NegativeKoala,Dark,3000,true,1
+FengyunDeeper,fenglope,Fenglope,FengyunDeeper,Normal,1960,true,3
+VolcanicMonster,reptyro,Reptyro,VolcanicMonster,Fire|Earth,1060,true,6
+VolcanicMonster_Ice,reptyro-cryst,Reptyro Cryst,VolcanicMonster_Ice,Ice|Earth,600,true,7
+GhostBeast,maraith,Maraith,GhostBeast,Dark,1710,true,6
+RobinHood,robinquill,Robinquill,RobinHood,Leaf,2260,true,5
+RobinHood_Ground,robinquill-terra,Robinquill Terra,RobinHood_Ground,Leaf|Earth,2050,true,6
+LazyDragon,relaxaurus,Relaxaurus,LazyDragon,Dragon|Water,1090,true,8
+LazyDragon_Electric,relaxaurus-lux,Relaxaurus Lux,LazyDragon_Electric,Dragon|Electricity,770,true,9
+AmaterasuWolf,kitsun,Kitsun,AmaterasuWolf,Fire,1670,true,6
+LizardMan,leezpunk,Leezpunk,LizardMan,Dark,2670,true,2
+LizardMan_Fire,leezpunk-ignis,Leezpunk Ignis,LizardMan_Fire,Fire,2640,true,3
+BluePlatypus,fuack,Fuack,Blueplatypus,Water,2980,true,1
+BluePlatypus_Fire,fuack-ignis,Fuack Ignis,BluePlatypus_Fire,Water|Fire,2300,true,2
+BlackFurDragon,dragostrophe,Dragostrophe,BlackFurDragon,Dark|Dragon,9999,false,10
+BirdDragon,vanwyrm,Vanwyrm,BirdDragon,Fire|Dark,1650,true,5
+BirdDragon_Ice,vanwyrm-cryst,Vanwyrm Cryst,BirdDragon_Ice,Ice|Dark,1430,true,5
+ChickenPal,chikipi,Chikipi,ChickenPal,Normal,3080,true,1
+FlowerDinosaur,dinossom,Dinossom,FlowerDinosaur,Leaf|Dragon,2100,true,6
+FlowerDinosaur_Electric,dinossom-lux,Dinossom Lux,FlowerDinosaur_Electric,Electricity|Dragon,1890,true,7
+ElecCat,sparkit,Sparkit,ElecCat,Electricity,3010,true,1
+IceHorse,frostallion,Frostallion,IceHorse,Ice,150,true,20
+IceHorse_Dark,frostallion-noct,Frostallion Noct,IceHorse_Dark,Dark,110,true,20
+GrassMammoth,mammorest,Mammorest,GrassMammoth,Leaf|Earth,1340,true,8
+GrassMammoth_Ice,mammorest-cryst,Mammorest Cryst,GrassMammoth_Ice,Ice|Earth,1070,true,9
+CatVampire,felbat,Felbat,CatVampire,Dark,1570,true,6
+SakuraSaurus,broncherry,Broncherry,SakuraSaurus,Leaf,1380,true,8
+SakuraSaurus_Water,broncherry-aqua,Broncherry Aqua,SakuraSaurus_Water,Leaf|Water,1080,true,8
+Horus,faleris,Faleris,Horus,Fire,500,true,9
+KingBahamut,blazamut,Blazamut,KingBahamut,Fire,410,true,9
+KingBahamut_Dragon,blazamut-ryu,Blazamut Ryu,KingBahamut_Dragon,Dragon|Fire,100,true,10
+BerryGoat,caprity,Caprity,BerryGoat,Leaf,2610,true,3
+IceDeer,reindrix,Reindrix,IceDeer,Ice,1930,true,4
+BlackGriffon,shadowbeak,Shadowbeak,BlackGriffon,Dark,550,true,10
+WhiteMoth,sibelyx,Sibelyx,WhiteMoth,Ice,1810,true,7
+WhiteMoth_Neutral,sibelyx-primo,Sibelyx Primo,WhiteMoth_Neutral,Normal,650,true,8
+CuteFox,vixy,Vixy,CuteFox,Normal,3060,true,2
+FoxMage,wixen,Wixen,FoxMage,Fire,2080,true,6
+FoxMage_Dark,wixen-noct,Wixen Noct,FoxMage_Dark,Fire|Dark,1490,true,6
+PinkLizard,lovander,Lovander,PinkLizard,Dark,2090,true,5
+WizardOwl,hoocrates,Hoocrates,WizardOwl,Dark,2940,true,1
+Kelpie,kelpsea,Kelpsea,Kelpie,Water,2810,true,1
+Kelpie_Fire,kelpsea-ignis,Kelpsea Ignis,Kelpie_Fire,Fire,2470,true,2
+NegativeOctopus,killamari,Killamari,NegativeOctopus,Dark|Water,2770,true,1
+NegativeOctopus_Neutral,killamari-primo,Killamari Primo,NegativeOctopus_Neutral,Normal|Water,2540,true,2
+CowPal,mozzarina,Mozzarina,CowPal,Normal,2800,true,2
+Yeti,wumpo,Wumpo,Yeti,Ice,830,true,7
+Yeti_Grass,wumpo-botan,Wumpo Botan,Yeti_Grass,Leaf,610,true,8
+VioletFairy,vaelet,Vaelet,VioletFairy,Leaf,1480,true,8
+HawkBird,nitewing,Nitewing,HawkBird,Normal,2560,true,3
+FlowerRabbit,flopie,Flopie,FlowerRabbit,Leaf,2660,true,1
+LilyQueen,lyleen,Lyleen,LilyQueen,Leaf,240,true,9
+LilyQueen_Dark,lyleen-noct,Lyleen Noct,LilyQueen_Dark,Dark,220,true,10
+QueenBee,elizabee,Elizabee,QueenBee,Leaf,1790,true,8
+SoldierBee,beegarde,Beegarde,SoldierBee,Leaf,2350,true,4
+CatBat,tombat,Tombat,CatBat,Dark,2340,true,5
+GrassPanda,mossanda,Mossanda,GrassPanda,Leaf,2060,true,6
+GrassPanda_Electric,mossanda-lux,Mossanda Lux,GrassPanda_Electric,Electricity,1440,true,7
+FlameBuffalo,arsox,Arsox,FlameBuffalo,Fire,2320,true,4
+ThunderDog,rayhound,Rayhound,ThunderDog,Electricity,1920,true,5
+ThunderDog_Ice,rayhound-cryst,Rayhound Cryst,ThunderDog_Ice,Ice,1600,true,6
+CuteMole,fuddler,Fuddler,CuteMole,Earth,2790,true,1
+BlackMetalDragon,astegon,Astegon,BlackMetalDragon,Dragon|Dark,490,true,9
+GrassRabbitMan,verdash,Verdash,GrassRabbitMan,Leaf,1160,true,8
+IceFox,foxcicle,Foxcicle,IceFox,Ice,1970,true,5
+JetDragon,jetragon,Jetragon,JetDragon,Dragon,70,true,20
+DreamDemon,daedream,Daedream,DreamDemon,Dark,2910,true,1
+Monkey,tanzee,Tanzee,Monkey,Leaf,2900,true,1
+Monkey_Ice,tanzee-cryst,Tanzee Cryst,Monkey_Ice,Ice,9999,false,2
+Monkey_Fire,tanzee-ignis,Tanzee Ignis,Monkey_Fire,Fire,2830,true,2
+Manticore,blazehowl,Blazehowl,Manticore,Fire,1360,true,7
+Manticore_Dark,blazehowl-noct,Blazehowl Noct,Manticore_Dark,Fire|Dark,1270,true,8
+KingAlpaca,kingpaca,Kingpaca,KingAlpaca,Normal,2220,true,8
+KingAlpaca_Ice,kingpaca-cryst,Kingpaca Cryst,KingAlpaca_Ice,Ice,1530,true,9
+PlantSlime,gumoss,Gumoss,PlantSlime,Leaf|Earth,2950,true,1
+DarkMutant,,,DarkMutant,Dark,9999,false,5
+MopBaby,swee,Swee,MopBaby,Ice,2840,true,1
+MopKing,sweepa,Sweepa,MopKing,Ice,2150,true,6
+CatMage,katress,Katress,CatMage,Dark,2040,true,6
+CatMage_Fire,katress-ignis,Katress Ignis,CatMage_Fire,Dark|Fire,1800,true,6
+PinkRabbit,ribbuny,Ribbuny,PinkRabbit,Normal,2860,true,1
+ThunderBird,beakon,Beakon,ThunderBird,Electricity,1690,true,6
+ThunderBird_Ice,beakon-cryst,Beakon Cryst,ThunderBird_Ice,Ice,580,true,7
+HerculesBeetle,warsect,Warsect,HerculesBeetle,Earth|Leaf,1280,true,8
+HerculesBeetle_Ground,warsect-terra,Warsect Terra,HerculesBeetle_Ground,Earth,630,true,9
+SaintCentaur,paladius,Paladius,SaintCentaur,Normal,180,true,20
+NightFox,nox,Nox,NightFox,Dark,2920,true,6
+CaptainPenguin,penking,Penking,CaptainPenguin,Water|Ice,2070,true,6
+CaptainPenguin_Black,penking-lux,Penking Lux,CaptainPenguin_Black,Water|Electricity,1850,true,7
+WeaselDragon,chillet,Chillet,WeaselDragon,Ice|Dragon,2330,true,4
+WeaselDragon_Fire,chillet-ignis,Chillet Ignis,WeaselDragon_Fire,Fire|Dragon,1950,true,5
+SkyDragon,quivern,Quivern,SkyDragon,Dragon,1210,true,7
+SkyDragon_Grass,quivern-botan,Quivern Botan,SkyDragon_Grass,Dragon|Leaf,1300,true,8
+HadesBird,helzephyr,Helzephyr,HadesBird,Dark,1130,true,7
+HadesBird_Electric,helzephyr-lux,Helzephyr Lux,HadesBird_Electric,Dark|Electricity,960,true,8
+RedArmorBird,ragnahawk,Ragnahawk,RedArmorBird,Fire,1050,true,7
+Ronin,bushi,Bushi,Ronin,Fire,1560,true,7
+Ronin_Dark,bushi-noct,Bushi Noct,Ronin_Dark,Fire|Dark,840,true,7
+FlyingManta,celaray,Celaray,FlyingManta,Water,2740,true,3
+FlyingManta_Thunder,celaray-lux,Celaray Lux,FlyingManta_Thunder,Water|Electricity,2380,true,4
+BlackCentaur,necromus,Necromus,BlackCentaur,Dark,190,true,20
+FlowerDoll,petallia,Petallia,FlowerDoll,Leaf,1720,true,8
+FlowerDoll_Fire,petallia-ignis,Petallia Ignis,FlowerDoll_Fire,Leaf|Fire,820,true,9
+NaughtyCat,grintale,Grintale,NaughtyCat,Normal,2120,true,6
+CuteButterfly,cinnamoth,Cinnamoth,CuteButterfly,Leaf,2620,true,4
+DarkScorpion,menasting,Menasting,DarkScorpion,Dark|Earth,1120,true,9
+DarkScorpion_Ground,menasting-terra,Menasting Terra,DarkScorpion_Ground,Earth,640,true,10
+ThunderDragonMan,orserk,Orserk,ThunderDragonMan,Dragon|Electricity,120,true,9
+WoolFox,cremis,Cremis,WoolFox,Normal,2890,true,1
+LazyCatfish,dumud,Dumud,LazyCatfish,Earth|Water,2290,true,4
+LazyCatfish_Gold,dumud-gild,Dumud Gild,LazyCatfish_Gold,Earth|Water,1620,true,5
+LavaGirl,flambelle,Flambelle,LavaGirl,Fire,2700,true,1
+FlameBambi,rooby,Rooby,FlameBambi,Fire,2870,true,2
+NightLady,bellanoir,Bellanoir,NightLady,Dark,620,true,20
+NightLady_Dark,bellanoir-libero,Bellanoir Libero,NightLady_Dark,Dark,130,true,20
+MoonQueen,selyne,Selyne,MoonQueen,Dark|Normal,360,true,9
+KendoFrog,croajiro,Croajiro,KendoFrog,Water,2600,true,4
+KendoFrog_Dark,croajiro-noct,Croajiro Noct,KendoFrog_Dark,Water|Dark,1860,true,5
+LeafPrincess,lullu,Lullu,LeafPrincess,Leaf,1990,true,4
+MushroomDragon,shroomer,Shroomer,MushroomDragon,Leaf,1520,true,4
+MushroomDragon_Dark,shroomer-noct,Shroomer Noct,MushroomDragon_Dark,Leaf|Dark,1450,true,5
+SmallArmadillo,kikit,Kikit,SmallArmadillo,Earth,2310,true,4
+CandleGhost,sootseer,Sootseer,CandleGhost,Dark|Fire,980,true,7
+ScorpionMan,prixter,Prixter,ScorpionMan,Dark|Earth,1510,true,5
+ScorpionMan_Electric,prixter-lux,Prixter Lux,ScorpionMan_Electric,Electricity|Earth,850,true,6
+WingGolem,knocklem,Knocklem,WingGolem,Earth,260,true,9
+WingGolem_Fire,knocklem-ignis,Knocklem Ignis,WingGolem_Fire,Fire,210,true,10
+GuardianDog,yakumo,Yakumo,GuardianDog,Normal,2230,true,4
+SifuDog,dogen,Dogen,SifuDog,Normal,1460,true,6
+FeatherOstrich,dazemu,Dazemu,FeatherOstrich,Earth,2210,true,5
+MimicDog,mimog,Mimog,MimicDog,Normal,1740,true,7
+DarkAlien,xenovader,Xenovader,DarkAlien,Dark,1820,true,7
+WhiteAlienDragon,xenogard,Xenogard,WhiteAlienDragon,Dragon,990,true,9
+VolcanoDragon,moldron,Moldron,VolcanoDragon,Fire|Earth,750,true,7
+VolcanoDragon_Ice,moldron-cryst,Moldron Cryst,VolcanoDragon_Ice,Ice|Earth,380,true,8
+DarkMechaDragon,xenolord,Xenolord,DarkMechaDragon,Dark|Dragon,400,true,8
+GhostRabbit,nitemary,Nitemary,GhostRabbit,Dark,1230,true,6
+GhostRabbit_Grass,nitemary-botan,Nitemary Botan,GhostRabbit_Grass,Leaf,1320,true,7
+NightBlueHorse,starryon,Starryon,NightBlueHorse,Dark,1150,true,7
+NightBlueHorse_Neutral,starryon-primo,Starryon Primo,NightBlueHorse_Neutral,Normal,430,true,8
+WhiteShieldDragon,silvegis,Silvegis,WhiteShieldDragon,Dragon,560,true,8
+BlackPuppy,smokie,Smokie,BlackPuppy,Dark,1760,true,2
+BlackPuppy_Ice,smokie-cryst,Smokie Cryst,BlackPuppy_Ice,Dark|Ice,1610,true,3
+WhiteDeer,celesdir,Celesdir,WhiteDeer,Normal,570,true,6
+WhiteDeer_Dark,celesdir-noct,Celesdir Noct,WhiteDeer_Dark,Dark,270,true,7
+KingWhale,panthalus,Panthalus,KingWhale,Water,20,true,10
+MysteryMask,omascul,Omascul,MysteryMask,Dark,1140,true,4
+HoodGhost,hoodle,Hoodle,HoodGhost,Dark,1770,true,3
+Sekhmet,sekhmet,Sekhmet,Sekhmet,Earth,870,true,5
+ElecLizard,slowatt,Slowatt,ElecLizard,Electricity,1750,true,4
+GrimGirl,splatterina,Splatterina,GrimGirl,Dark,780,true,4
+PurpleSpider,tarantriss,Tarantriss,PurpleSpider,Dark,1730,true,3
+BlueThunderHorse,azurmane,Azurmane,BlueThunderHorse,Electricity,420,true,7
+RockBeast,pierdon,Pierdon,RockBeast,Earth,1110,true,6
+RockBeast_Ice,pierdon-cryst,Pierdon Cryst,RockBeast_Ice,Ice,460,true,7
+OctopusGirl,gloopie,Gloopie,OctopusGirl,Water|Dark,2530,true,5
+OctopusGirl_Neutral,gloopie-primo,Gloopie Primo,OctopusGirl_Neutral,Water|Normal,1630,true,6
+IceNarwhal,whalaska,Whalaska,IceNarwhal,Ice|Water,710,true,8
+IceNarwhal_Fire,whalaska-ignis,Whalaska Ignis,IceNarwhal_Fire,Ice|Fire,370,true,8
+JellyfishFairy,jelliette,Jelliette,JellyfishFairy,Water,2650,true,3
+Kitsunebi_Ice,foxparks-cryst,Foxparks Cryst,Kitsunebi_Ice,Ice,2500,true,1
+BerryGoat_Dark,caprity-noct,Caprity Noct,BerryGoat_Dark,Dark,1940,true,3
+PinkRabbit_Grass,ribbuny-botan,Ribbuny Botan,PinkRabbit_Grass,Leaf,2460,true,1
+Werewolf_Ice,loupmoon-cryst,Loupmoon Cryst,Werewolf_Ice,Ice,1290,true,3
+AmaterasuWolf_Dark,kitsun-noct,Kitsun Noct,AmaterasuWolf_Dark,Dark,800,true,6
+RaijinDaughter_Water,dazzi-noct,Dazzi Noct,RaijinDaughter_Water,Dark|Electricity,1910,true,2
+WhiteTiger_Ground,cryolinx-terra,Cryolinx Terra,WhiteTiger_Ground,Earth,470,true,7
+FengyunDeeper_Electric,fenglope-lux,Fenglope Lux,FengyunDeeper_Electric,Electricity,900,true,3
+Horus_Water,faleris-aqua,Faleris Aqua,Horus_Water,Water,450,true,9
+SnowTigerBeastman,bastigor,Bastigor,SnowTigerBeastman,Ice,50,true,8
+SnakeGirl,venusa,Venusa,SnakeGirl,Dark,970,true,5
+GhostAnglerfish,ghangler,Ghangler,GhostAnglerfish,Dark|Water,880,true,5
+GhostAnglerfish_Fire,ghangler-ignis,Ghangler Ignis,GhostAnglerfish_Fire,Fire|Water,720,true,6
+IceWitch,icelyn,Icelyn,IceWitch,Ice,1260,true,4
+ClownRabbit,dupin,Dupin,ClownRabbit,Fire,520,true,7
+LegendDeer,hartalis,Hartalis,LegendDeer,Normal,90,true,10
+LeafMomonga,herbil,Herbil,LeafMomonga,Leaf|Normal,2630,true,3
+SmallYeti,snugloo,Snugloo,SmallYeti,Ice,2390,true,3
+IceCrocodile,munchill,Munchill,IceCrocodile,Ice|Water,2130,true,3
+CactusDoll,needoll,Needoll,CactusDoll,Leaf,2420,true,2
+CactusDoll_Dark,needoll-noct,Needoll Noct,CactusDoll_Dark,Dark|Leaf,1580,true,3
+MushroomLady,mycora,Mycora,MushroomLady,Leaf,760,true,6
+StuffedShark,finsider,Finsider,StuffedShark,Water,2450,true,3
+StuffedShark_Fire,finsider-ignis,Finsider Ignis,StuffedShark_Fire,Water|Fire,2240,true,4
+FoxExorcist,flaracle,Flaracle,FoxExorcist,Fire,390,true,7
+IceSeal,polapup,Polapup,IceSeal,Ice|Water,1660,true,5
+IceSeal_Ground,polapup-terra,Polapup Terra,IceSeal_Ground,Ice|Earth,1100,true,6
+CloverFairy,clovee,Clovee,CloverFairy,Leaf|Normal,2970,true,2
+ElecPomeranian,puffolt,Puffolt,ElecPomeranian,Electricity,2360,true,2
+GhostBlackCat,wispaw,Wispaw,GhostBlackCat,Dark,2250,true,5
+ThiefBird,roujay,Roujay,ThiefBird,Dark,530,true,5
+OniGhostGirl,bakemi,Bakemi,OniGhostGirl,Dark,1540,true,4
+KingCrab,,,KingCrab,Water,9999,false,3
+Plesiosaur,braloha,Braloha,Plesiosaur,Leaf|Earth,1030,true,8
+TropicalOstrich,palumba,Palumba,TropicalOstrich,Leaf,1240,true,6
+GrassGolem,dualith,Dualith,GrassGolem,Earth|Leaf,510,true,8
+GrassGolem_Dark,dualith-noct,Dualith Noct,GrassGolem_Dark,Earth|Dark,250,true,8
+SnowPeafowl,frostplume,Frostplume,SnowPeafowl,Ice,860,true,4
+CubeTurtle,tetroise,Tetroise,CubeTurtle,Earth,790,true,8
+CubeTurtle_Neutral,tetroise-primo,Tetroise Primo,CubeTurtle_Neutral,Normal,200,true,8
+LongCat,valentail,Valentail,LongCat,Normal,1900,true,2
+JellyfishGhost,jellroy,Jellroy,JellyfishGhost,Water|Dark,2590,true,3
+ThunderFluffyBird,dynamoff,Dynamoff,ThunderFluffyBird,Electricity,1400,true,6
+MoonChild,wistella,Wistella,MoonChild,Dark,1180,true,2
+SamuraiDog,pupperai,Pupperai,SamuraiDog,Earth,2930,true,2
+PoseidonOrca,neptilius,Neptilius,PoseidonOrca,Water,160,true,20
+SwordCutlassfish,skutlass,Skutlass,SwordCutlassfish,Water,1420,true,5
+SwordCutlassfish_Fire,skutlass-ignis,Skutlass Ignis,SwordCutlassfish_Fire,Water|Fire,1590,true,5
+YakushimaMonster001,green-slime,Green Slime,YakushimaMonster001,Leaf,3100,false,3
+YakushimaMonster001_Blue,blue-slime,Blue Slime,YakushimaMonster001_Blue,Water,3100,false,3
+YakushimaMonster001_Red,red-slime,Red Slime,YakushimaMonster001_Red,Fire,3100,false,3
+YakushimaMonster001_Purple,purple-slime,Purple Slime,YakushimaMonster001_Purple,Dark,3100,false,3
+YakushimaMonster001_Pink,illuminant-slime,Illuminant Slime,YakushimaMonster001_Pink,Normal,3100,false,4
+YakushimaMonster001_Rainbow,rainbow-slime,Rainbow Slime,YakushimaMonster001_Rainbow,Normal,3100,false,4
+YakushimaMonster002,enchanted-sword,Enchanted Sword,YakushimaMonster002,Normal,3100,false,3
+YakushimaMonster003,cave-bat,Cave Bat,YakushimaMonster003,Normal,3100,false,3
+YakushimaMonster003_Purple,illuminant-bat,Illuminant Bat,YakushimaMonster003_Purple,Normal,3100,false,4
+YakushimaBoss001,eye-of-cthulhu,Eye of Cthulhu,YakushimaBoss001,Dark,3100,false,6
+YakushimaBoss001_Small,demon-eye,Demon Eye,YakushimaBoss001_Small,Dark,3100,false,3
+RAID_YakushimaBoss001_Green,true-eye-of-cthulhu,True Eye of Cthulhu,YakushimaBoss001_Green,,3100,false,10
+RAID_YakushimaBoss002,moon-lord,Moon Lord,YakushimaBoss002,,3100,false,10
+RAID_YakushimaBoss002_Hand_Left,,,YakushimaBoss002_Hand_Left,,3100,false,10
+RAID_YakushimaBoss002_Hand_Right,,,YakushimaBoss002_Hand_Right,,3100,false,10
+RAID_YakushimaBoss002_Head,,,YakushimaBoss002_Head,,3100,false,10
+RAID_YakushimaBoss002_2,,,YakushimaBoss002_2,,3100,false,10
+RAID_YakushimaBoss002_Hand_Left_2,,,YakushimaBoss002_Hand_Left_2,,3100,false,10
+RAID_YakushimaBoss002_Hand_Right_2,,,YakushimaBoss002_Hand_Right_2,,3100,false,10
+RAID_YakushimaBoss002_Head_2,,,YakushimaBoss002_Head_2,,3100,false,10
+RAID_YakushimaBoss001_Green_2,,,YakushimaBoss001_Green_2,,3100,false,10
+MummyPal,gildra,Gildra,MummyPal,Dark|Earth,1170,true,5
+KingSunfish,solmora,Solmora,KingSunfish,Water,1370,true,4
+KingSunfish_Thunder,solmora-lux,Solmora Lux,KingSunfish_Thunder,Water|Electricity,1000,true,5
+MonochromeQueen,solenne,Solenne,MonochromeQueen,Dark|Normal,280,true,7
+ElecSnail,snock,Snock,ElecSnail,Electricity,1780,true,2
+ElecSnail_Fire,snock-ignis,Snock Ignis,ElecSnail_Fire,Fire,9999,false,3
+ElecSnail_Ground,snock-terra,Snock Terra,ElecSnail_Ground,Electricity|Earth,1500,true,3
+LanternButler,loomen,Loomen,LanternButler,Dark|Fire,890,true,5
+SumoDog,bulldosu,Bulldosu,SumoDog,Earth,1190,true,4
+VenusFlytrap,carnibora,Carnibora,VenusFlytrap,Leaf,1700,true,6
+StrawHatCat,unidentified-pal,Unidentified Pal,Strawhatcat,Normal,9999,false,3
+CandleWitch,unidentified-pal-1,Unidentified Pal,CandleWitch,Dark|Fire,9999,false,3
+FluffyBird,muffly,Muffly,FluffyBird,Ice,2480,true,2
+FrozenBear,,,FrozenBear,Ice,9999,false,3
+DandelionGirl,souffline,Souffline,DandelionGirl,Leaf,2000,true,3
+VolcanicTurtle,unidentified-pal-1-2,Unidentified Pal,VolcanicTurtle,Fire|Earth,9999,false,3
+ClioneTwins,amione,Amione,ClioneTwins,Water,2520,true,2
+DarkFlameFox,majex,Majex,DarkFlameFox,Dark|Fire,1010,true,5
+IceVeilDragon,,,IceVeilDragon,Dragon|Ice,9999,false,3
+RedFlowerBird,tropicaw,Tropicaw,RedFlowerBird,Leaf,1350,true,5
+SleeveRabbit,lapure,Lapure,SleeveRabbit,Normal,810,true,4
+LotusDragon,ophydia,Ophydia,LotusDragon,Leaf|Water,230,true,9
+BlueSkyDragon,shaolong,Shaolong,BlueSkyDragon,Dragon|Water,40,true,9
+BlueWoolRabbit,,,BlueWoolRabbit,Ice,9999,false,3
+PandaGirl,leafan,Leafan,PandaGirl,Leaf,1410,true,7
+GrassMinotaur,elgrove,Elgrove,GrassMinotaur,Leaf,2020,true,6
+GrassMinotaur_Ice,elgrove-cryst,Elgrove Cryst,GrassMinotaur_Ice,Ice,440,true,7
+MonochromeMushroom,,,MonochromeMushroom,Leaf|Dark,9999,false,3
+MedjedBird,,,MedjedBird,Dark,9999,false,3
+Mothman,silvance,Silvance,Mothman,Leaf,80,true,8
+GhostDragon,eidrolon,Eidrolon,GhostDragon,Dragon|Dark,300,true,7
+GhostDragon_Fire,eidrolon-ignis,Eidrolon Ignis,GhostDragon_Fire,Dragon|Fire,140,true,8
+FlowerPrince,dandilord,Dandilord,FlowerPrince,Leaf|Dark,60,true,8
+WorldTreeDragon,astralym,Astralym,WorldTreeDragon,,10,true,10
+KabukiMan,renjishi,Renjishi,KabukiMan,Fire,290,true,7
+DomeArmorDragon,aegidron,Aegidron,DomeArmorDragon,Dragon|Earth,30,true,8
+RockCheetah,,,RockCheetah,Earth,9999,false,3
+ArmorWoodlouse,,,ArmorWoodlouse,Earth,9999,false,3
+MexicanSalamander,,,MexicanSalamander,Earth|Leaf,9999,false,3
+LeafBird,,,LeafBird,Leaf,9999,false,3
+CuteOrca,,,CuteOrca,Water,9999,false,3
+SnakeQueen,,,SnakeQueen,Dark,9999,false,3
