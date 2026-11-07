@@ -1,0 +1,49 @@
+name: Publish CVG Boss Control v23 Lua
+on:
+  push:
+    branches: [cvg-pal-control-android-20261105]
+    paths: ['.github/workflows/publish-cvg-boss-v23.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Fix and publish exact companion Lua
+        run: |
+          python3 - <<'PY'
+          import zipfile
+          from pathlib import Path
+          archive=Path('cvg-pal-control-source.zip')
+          member='CVG_Pal_Control_Android_Source/companion-mod/CVGBossControl/Scripts/main.lua'
+          with zipfile.ZipFile(archive) as z:
+            s=z.read(member).decode('utf-8')
+          checks=[
+            '-- CVG v1.11.11.21 clone: CAMPAL handoff diagnostics + bounded spectator state recheck.',
+            "local VERSION = '1.11.11.21-CAMPAL-HANDOFF-BOUNDED-CLONE'",
+            "local f=io.open(MOBILE_STATE_FILE,'w')",
+          ]
+          for c in checks: assert c in s, 'expected source not found'
+          assert s.count('mobile_jsonstr(')==6
+          s=s.replace(checks[0], '-- CVG v1.11.11.23 clone: CVG mobile status bridge fixes on top of v1.11.11.21.')
+          s=s.replace(checks[1], "local VERSION = '1.11.11.23-MOBILE-STATUS-FIX-CLONE'")
+          s=s.replace('..mobile_jsonstr(', '..pal_control.mobile_jsonstr(')
+          s=s.replace(checks[2], "local f=io.open(pal_control.MOBILE_STATE_FILE,'w')")
+          s=s.replace("        f:close()\n    end)\n    if not ok and not pal_control.mobile_io_warned then", "        f:close()\n    end)\n    if ok and not pal_control.mobile_status_first_write_seen then\n        pal_control.mobile_status_first_write_seen=true\n        log('CVG_MOBILE_STATUS_WRITE_OK: state_file='..tostring(pal_control.MOBILE_STATE_FILE)..'; first_write=true; no_private_user_data=true')\n    end\n    if not ok and not pal_control.mobile_io_warned then")
+          s=s.replace('-- CVG v1.11.11.22 MOBILE BRIDGE CLONE: status and authenticated attack request;', '-- CVG v1.11.11.23 MOBILE BRIDGE FIX: qualified status JSON encoder and file path;')
+          assert s.count('..pal_control.mobile_jsonstr(')==5
+          assert "io.open(MOBILE_STATE_FILE" not in s
+          out=Path('CVG_Boss_Control_v1_11_11_23_Ponte_Android_FIX_main.lua')
+          out.write_text(s,encoding='utf-8')
+          print('Fixed Lua file',out.stat().st_size,'bytes')
+          PY
+      - name: Commit only fixed Lua to isolated branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CVG_Boss_Control_v1_11_11_23_Ponte_Android_FIX_main.lua
+          git commit -m "fix: qualify mobile JSON writer and status file path"
+          git push origin HEAD:cvg-pal-control-android-20261105
