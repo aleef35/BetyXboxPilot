@@ -5446,7 +5446,7 @@ function pal_control.target_action(action)
     end
     if action~='TARGETLOCK' then return 'TARGET_COMANDO_INVALIDO' end
     if pal_control.target_busy then return 'TARGET_SCAN_OCUPADO' end
-    if type(FindObjects)~='function' or type(EObjectFlags)~='table' then
+    if type(FindObjects)~='function' or EObjectFlags==nil or EObjectFlags.RF_NoFlags==nil or EObjectFlags.RF_ClassDefaultObject==nil then
         return 'TARGET_BUSCA_INDISPONIVEL'
     end
     pal_control.target_busy=true
