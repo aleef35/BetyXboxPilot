@@ -12,7 +12,7 @@ p=java/'GameGridFiles.java'
 s=p.read_text(encoding='utf-8')
 # Read/write access remains confined to the same one mobile status file and one fixed command file.
 s=once(s,
-    'if(!text.matches("^\MOBILE(ARM|DISARM|CHECK|ATTACK|RETURN|TARGETLOCK|TARGETCLEAR) [0-9]{1,8} [0-9]{10,20}$"))'.replace('\\M','M'),
+    'if(!text.matches("^MOBILE(ARM|DISARM|CHECK|ATTACK|RETURN|TARGETLOCK|TARGETCLEAR) [0-9]{1,8} [0-9]{10,20}$"))',
     'if(!text.matches("^(?:MOBILE(ARM|DISARM|CHECK|ATTACK|RETURN|TARGETLOCK|TARGETCLEAR) [0-9]{1,8} [0-9]{10,20}|(?:TRIAL|NPCTRIAL|CVGSPEC|CVGSPECEND|CAMPAL|CAMNPC) [0-9]{1,8})$"))')
 p.write_text(s,encoding='utf-8')
 
