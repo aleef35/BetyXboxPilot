@@ -65,7 +65,7 @@ jobs:
           cp CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk CVG_Pal_Control_v1_5_Tres_Ataques_Android_Instalar.apk
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add CVG_Pal_Control_v1_4_Possessao_Camera_Android_Instalar.apk
+          git add CVG_Pal_Control_v1_5_Tres_Ataques_Android_Instalar.apk
           git commit -m "build: publish signed CVG Pal Control v1.5 with Pal attack 2 and 3" || true
           git push origin HEAD:cvg-pal-control-android-20261105
       - name: Publicar APK
