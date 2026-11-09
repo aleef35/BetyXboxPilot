@@ -50,6 +50,8 @@ jobs:
         run: python3 cvg_pal_control_v12_patch.py
       - name: Corrigir envio do comando ALVO no APK v1.3
         run: python3 cvg_pal_control_v13_patch.py
+      - name: Adicionar cinco botoes de possessao e camera na v1.4
+        run: python3 cvg_pal_control_v14_patch.py
       - name: Compilar APK debug
         working-directory: CVG_Pal_Control_Android_Source
         run: gradle --no-daemon :app:assembleDebug
@@ -58,16 +60,16 @@ jobs:
           $ANDROID_HOME/build-tools/35.0.0/apksigner verify --verbose CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
       - name: Criar arquivo APK direto no GitHub (ramificação isolada)
         run: |
-          cp CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk CVG_Pal_Control_v1_3_Alvo_Fix_Android_Instalar.apk
+          cp CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk CVG_Pal_Control_v1_4_Possessao_Camera_Android_Instalar.apk
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add CVG_Pal_Control_v1_3_Alvo_Fix_Android_Instalar.apk
-          git commit -m "build: publish signed CVG Pal Control v1.3 with target command fix" || true
+          git commit -m "build: publish signed CVG Pal Control v1.4 with possession and spectator controls" || true
           git push origin HEAD:cvg-pal-control-android-20261105
       - name: Publicar APK
         uses: actions/upload-artifact@v4
         with:
-          name: CVG-Pal-Control-v1.3-ALVO-FIX-APK
+          name: CVG-Pal-Control-v1.4-POSSESSAO-CAMERA-APK
           path: CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
