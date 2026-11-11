@@ -54,6 +54,8 @@ jobs:
         run: python3 cvg_pal_control_v14_patch.py
       - name: Adicionar botoes ATAQUE 2 e ATAQUE 3 na v1.5
         run: python3 cvg_pal_control_v15_patch.py
+      - name: Adicionar aba SAY para Pal possuido na v1.6
+        run: python3 cvg_pal_control_v16_patch.py
       - name: Compilar APK debug
         working-directory: CVG_Pal_Control_Android_Source
         run: gradle --no-daemon :app:assembleDebug
@@ -62,16 +64,16 @@ jobs:
           $ANDROID_HOME/build-tools/35.0.0/apksigner verify --verbose CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
       - name: Criar arquivo APK direto no GitHub (ramificação isolada)
         run: |
-          cp CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk CVG_Pal_Control_v1_5_Tres_Ataques_Android_Instalar.apk
+          cp CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk CVG_Pal_Control_v1_6_Pal_Say_Mira_Android_Instalar.apk
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add CVG_Pal_Control_v1_5_Tres_Ataques_Android_Instalar.apk
-          git commit -m "build: publish signed CVG Pal Control v1.5 with Pal attack 2 and 3" || true
+          git add CVG_Pal_Control_v1_6_Pal_Say_Mira_Android_Instalar.apk
+          git commit -m "build: publish signed CVG Pal Control v1.6 with Pal Say chat" || true
           git push origin HEAD:cvg-pal-control-android-20261105
       - name: Publicar APK
         uses: actions/upload-artifact@v4
         with:
-          name: CVG-Pal-Control-v1.5-TRES-ATAQUES-APK
+          name: CVG-Pal-Control-v1.6-PAL-SAY-APK
           path: CVG_Pal_Control_Android_Source/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
